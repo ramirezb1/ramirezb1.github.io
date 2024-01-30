@@ -3,20 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Development Class</title>
+    <title>Simple HTML & CSS Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Web Development Class</h1>
+        <h1>Simple HTML & CSS Page</h1>
     </header>
-    <main>
         <section class="about-me">
-            <img src="your_picture.jpg" alt="Your Picture">
-            <p>About Me: (Your paragraph here)</p>
+            <img src="IMG_7964.JPG" alt="Your Picture" width="150" height="100">
+            <p>My name is Bryan Ramirez and I am a sophomore Computer Science Major.</p>
         </section>
         <section class="reasons">
-            <p>Reasons for Attending this Class: (Your reasons here)</p>
+            <p>I am attending this class because I realize I have extreme weakpoints in website design</br>that I want to turn into strong suits.</p>
         </section>
         <section class="technologies">
             <h2>Technologies for this Class</h2>
@@ -29,10 +28,9 @@
         <section class="resources">
             <h2>Resources</h2>
             <ul>
-                <li><a href="https://example1.com" target="_blank">Example 1</a> - This website offers comprehensive tutorials on web development topics.</li>
-                <li><a href="https://example2.com" target="_blank">Example 2</a> - A community-driven platform providing valuable insights and discussions on modern web technologies.</li>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a> - This website offers very well structured tutorials on coding and topics related. </li>
+                <li><a href="https://www.codecademy.com/">Code Academy</a> - This website handles specifci topics and very broad topics.</li>
             </ul>
         </section>
-    </main>
 </body>
 </html>
