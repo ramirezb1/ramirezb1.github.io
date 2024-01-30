@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Class</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Web Development Class</h1>
+    </header>
+    <main>
+        <section class="about-me">
+            <img src="your_picture.jpg" alt="Your Picture">
+            <p>About Me: (Your paragraph here)</p>
+        </section>
+        <section class="reasons">
+            <p>Reasons for Attending this Class: (Your reasons here)</p>
+        </section>
+        <section class="technologies">
+            <h2>Technologies for this Class</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <section class="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="https://example1.com" target="_blank">Example 1</a> - This website offers comprehensive tutorials on web development topics.</li>
+                <li><a href="https://example2.com" target="_blank">Example 2</a> - A community-driven platform providing valuable insights and discussions on modern web technologies.</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
