@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 1A</title>
+    <link rel="stylesheet2" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#animation_button").click(function(){
+                $("#Heading").animate({
+                    fontSize: '3em'}, 3500).animate({
+                    fontSize: '2em'}, 3500);
+
+                $("#Heading").animate({
+                    color: 'blue'}, 1000, function(){
+                    setTimeout(function(){
+                        $("#Heading").animate({
+                            color: 'black'}, 1000);
+                    }, 1000);
+                });
+
+                $("#my_picture").animate({
+                    borderWidth: '5px',
+                    borderColor: 'black'}, 4500).animate({
+                    borderWidth: '0px'}, 4500);
+                    // I can't seem to fix the error
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1 id="Heading">Simple HTML & CSS Page</h1>
+    </header>
+    <main>
+        <section class="about-me">
+            <img id="my_picture" src="IMG_7964.JPG" alt="Your Picture" width="150" height="100">
+            <div>
+                <p id="intro">My name is Bryan Ramirez and I am a sophomore Computer Science Major.</p>
+                <p>I am attending this class because I realize I have extreme weakpoints in website design that I want to turn into strong suits.</p>
+            </div>
+        </section>
+        <section class="technologies">
+            <h2>Technologies for this Class</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <section class="resources">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/">W3 Schools</a> - This website offers very well structured tutorials on coding and topics related. </li>
+                <li><a href="https://www.codecademy.com/">Code Academy</a> - This website handles specifci topics and very broad topics.</li>
+            </ul>
+        </section>
+    </main>
+    <button id="animation_button">Start Animation</button>
+</body>
+</html>
